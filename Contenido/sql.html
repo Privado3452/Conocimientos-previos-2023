@@ -81,6 +81,70 @@
     CREATE TABLE: Crea una tabla con el nombre especificado y las columnas definidas. <br>
     
   </p>
+
+  <h3 class="nav">DML <h3></h3>
+  <p class="p">
+    DML (Lenguaje de Manipulación de Datos) es un subconjunto del lenguaje SQL que se utiliza para manipular datos en una base de datos. <br>
+    Las sentencias DML se dividen en cuatro categorías principales:
+  </p>
+
+  <h3 class="nav">Sentencia  INSERT <h3></h3>
+  <p class="p">
+    INSERT: Se utiliza para insertar nuevos datos en una tabla. La sintaxis básica es: <br><br>
+
+    INSERT INTO clientes (nombre, apellido, email) VALUES ("Juan", "Pérez", "juan.perez@ejemplo.com"); <br> <br>
+   
+  <h3 class="nav">Sentencia UPDATE <h3></h3>
+  <p class="p">
+    
+    UPDATE: Se utiliza para actualizar datos existentes en una tabla. La sintaxis básica es: <br> <br>
+    UPDATE nombre_tabla SET columna1 = valor1, columna2 = valor2 WHERE condición;<br><br>
+
+  </p>
+  <h3 class="nav">Sentencia DELETE <h3></h3>
+  <p class="p">
+    
+    
+    DELETE: Se utiliza para eliminar datos de una tabla. La sintaxis básica es: <br> <br>
+    DELETE FROM nombre_tabla WHERE condición;<br><br>
+    
+  </p>
+  <h3 class="nav">Sentencias SELECT <h3></h3>
+  <p class="p">
+    
+    SELECT: Se utiliza para recuperar datos de una tabla. La sintaxis básica es: <br> <br>
+    SELECT columnas FROM nombre_tabla WHERE condición;<br><br>
+    
+  </p>
+
+  <h3 class="nav">Insercion de Datos  <h3></h3>
+  <p class="p">
+    
+    Se utiliza la sentencia INSERT INTO para agregar nuevos datos a una tabla. <br> <br>
+    INSERT INTO clientes (nombre, apellido, email) VALUES ("Juan", "Pérez", "juan.perez@ejemplo.com");<br><br>
+    
+  </p>
+  <h3 class="nav">Modificacion de Datos <h3></h3>
+  <p class="p">
+    
+    Se utiliza la sentencia UPDATE para modificar datos existentes en una tabla. <br> <br>
+    UPDATE clientes SET email = "nuevo.email@ejemplo.com" WHERE id = 1;<br><br>
+    
+  </p>
+  <h3 class="nav">Eliminacion de Datos <h3></h3>
+  <p class="p">
+    
+    Se utiliza la sentencia DELETE para eliminar datos de una tabla. <br> <br>
+    DELETE FROM clientes WHERE ciudad = "Bogotá";<br><br>
+    
+  </p>
+  <h3 class="nav">Consulta de Datos <h3></h3>
+  <p class="p">
+    
+    Se utiliza la sentencia SELECT para recuperar datos de una tabla. <br> <br>
+    SELECT nombre, apellido FROM clientes WHERE país = "Colombia";<br><br>
+    
+  </p>
   </div>
 </body>
 </html>
